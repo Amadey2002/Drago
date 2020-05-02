@@ -1,0 +1,138 @@
+html, body{
+  /* overflow-x: hidden; */
+  /* text-align: c\center; */
+}
+
+header nav{
+  margin: -6px;
+  height: 85px;
+  position: relative;
+  z-index: 1;
+  background: #f4f4f4;
+}
+
+header nav p{
+  z-index: 2;
+  display: inline-block;
+  margin: 31px 70px 10px 10px;
+  position: relative;
+  left: 345px;
+}
+
+header nav p a{
+    text-decoration: none;
+    color: #b4b4b4;
+    transition: 0.5s;
+}
+
+header nav p a:hover{
+  color: black;
+}
+
+ header h1{
+  border: 0px;
+ font-size: 201px;
+ text-align: center;
+ margin-top: 20px;
+ color: #f1f1f1;
+ position: relative;
+ z-index: -1;
+ user-select: none;
+}
+
+.main {
+  position: absolute;
+  z-index: 3;
+  top: 170px;
+  left: 300px;
+}
+
+
+.main .description{
+  color:#b4b4b4;
+  font-size: 14px;
+}
+
+.main .mainText strong{
+  border-bottom: 2px solid #b4b4b4;
+  padding-bottom: 7px;
+}
+
+
+.main .seperation{
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+#ava{
+  border-radius: 100px;
+  height: 83px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.main .text{
+  font-size: 55px;
+  /* margin-right:; */
+  padding: 0;
+}
+
+footer{
+  user-select: none;
+  position: relative;
+ top: 1650px;
+ /* top: 230%; */
+ bottom: 0px;
+
+}
+
+footer .imgFoot{
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  padding: 0
+  top: 100;
+}
+
+footer h2{
+  text-transform: uppercase;
+  color: white;
+  border: 3px solid;
+  padding: 60px 43px 60px;
+  position: absolute;
+  top: 100px;
+  left: 373px;
+  right: 373px;
+}
+
+span{
+  border: 10px;
+}
+
+footer p{
+  margin-top: 60px;
+  margin-left: 300px;
+  padding-bottom: 45px;
+}
+
+
+@media (max-width:1160px) {
+  html, body{
+    text-align: center;
+    margin: 0px;
+
+
+  }
+  footer{
+    width: 100%;
+    position: relative;
+    bottom: 0;
+  }
+
+  footer .foot{
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+}
